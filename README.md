@@ -1,1 +1,1 @@
-# html-css-tailwind
+# Tutorial 2
