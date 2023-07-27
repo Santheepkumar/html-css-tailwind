@@ -1,0 +1,18 @@
+/* External Styling */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: unset;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+    border: 0.5px solid salmon;
+}
