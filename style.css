@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: unset;
+    box-sizing: border-box;
+}
+
+body > p:first-child {
+    background-color: red;
+}
+
+.highlight, #special {
+    background-color: yellow;
+}
+
+/* #special {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+p {
+    font-size: 10px;
+}
+
+.my-button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+
+.my-button:hover {
+    background-color: gray;
+}
+
+.my-button:active {
+    background-color: red;
+}
+
+.my-button:before {
+    content: "\f055";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+
+.my-button:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    margin-left: 5px;
+}
